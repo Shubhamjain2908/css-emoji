@@ -41,3 +41,11 @@ body {
     background-color: black;
     border-radius: 50%;
 }
+
+.eye-left {
+    left: calc(var(--emoji-size) * -.2);
+}
+
+.eye-left {
+    right: calc(var(--emoji-size) * -.2);
+}
