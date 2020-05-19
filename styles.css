@@ -49,3 +49,15 @@ body {
 .eye-left {
     right: calc(var(--emoji-size) * -.2);
 }
+
+.smile {
+    --mouth-heigth: calc(var(--emoji-size) * .3);
+    position: absolute;
+    bottom: calc(var(--emoji-size) * .15);
+    left: calc(var(--emoji-size) * .5);
+    transform: translateX(-50%);
+    background-color: black;
+    width: calc(var(--emoji-size) * .6);
+    height: var(--mouth-heigth);
+    border-radius: 5% 5% var(--mouth-heigth) var(--mouth-heigth);
+}
