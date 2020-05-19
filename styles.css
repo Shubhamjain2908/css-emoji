@@ -25,4 +25,19 @@ body {
     width: 100%;
     background-color: #ffc83d;
     overflow: hidden;
+    position: relative;
+}
+
+.eyes {
+    position: absolute;
+    top: calc(var(--emoji-size) * .25);
+    left: calc(var(--emoji-size) * .5);
+}
+
+.eye {
+    position: absolute;
+    width: calc(var(--emoji-size) * .075);
+    height: calc(var(--emoji-size) * .15);
+    background-color: black;
+    border-radius: 50%;
 }
